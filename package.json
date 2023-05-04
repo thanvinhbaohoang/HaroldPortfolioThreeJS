@@ -1,7 +1,7 @@
 {
   "name": "HaroldPortfolio3",
-  "private": true,
-  "homepage": "http://haroldthan.me",
+  "private": false,
+  "homepage": "https://thanvinhbaohoang.github.io/HaroldPortfolioThreeJS",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
