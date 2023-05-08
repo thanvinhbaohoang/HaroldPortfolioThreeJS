@@ -20,6 +20,10 @@ import {
   tesla,
   shopify,
   carrent,
+  etherstream,
+  cashstream,
+  blockstay,
+  dartmart,
   jobit,
   tripguide,
   threejs,
@@ -57,6 +61,7 @@ const services = [
     title: "Fusion Musician",
     icon: creator,
   },
+  
 ];
 
 const technologies = [
@@ -200,14 +205,14 @@ const projects = [
   {
     name: "BlockStay",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing efficient solution for transportation needs.",
+    "Blockchain-Based Hotel Access and Stream-Pay Rental Service Using Metamask Wallet and IoT-enabled Smart Lock",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "GraphQL",
         color: "green-text-gradient",
       },
       {
@@ -215,41 +220,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: blockstay,
+    source_code_link: "https://github.com/thanvinhbaohoang/BlockStay",
   },
   {
     name: "CashStream",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Superfluid Protocol Dashboard for money streaming on Ethereum Network",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "EtherStream",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "GraphQL",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +241,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cashstream,
+    source_code_link: "https://github.com/thanvinhbaohoang/CashStream",
+  },
+  {
+    name: "EtherStream",
+    description:
+      "Proof Of Concept: Superfluid-powered subscription service that integrate CashStream's uses money stream for user authentication .",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: etherstream,
+    source_code_link: "https://github.com/thanvinhbaohoang/EtherStream",
+  },
+  {
+    name: "DartMart",
+    description:
+      "A React Native Food Delivery App for Dartmouth Students.",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "RestAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dartmart,
+    source_code_link: "https://github.com/thanvinhbaohoang/project-dartmart",
   },
 ];
 

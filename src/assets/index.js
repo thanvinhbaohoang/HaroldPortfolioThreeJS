@@ -21,6 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import etherstream from "./etherstream.png";
+import cashstream from "./cashstream.png";
+import blockstay from "./blockstay.png";
+import dartmart from "./dartmart.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -49,6 +54,10 @@ export {
   nodejs,
   reactjs,
   redux,
+  etherstream,
+  cashstream,
+  blockstay,
+  dartmart,
   tailwind,
   typescript,
   threejs,
