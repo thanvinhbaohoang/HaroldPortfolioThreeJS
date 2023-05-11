@@ -17,15 +17,13 @@ import {
   docker,
   meta,
   starbucks,
-  tesla,
   shopify,
-  carrent,
   etherstream,
   cashstream,
   blockstay,
   dartmart,
-  jobit,
-  tripguide,
+  passage,
+  makerspace,
   threejs,
 } from "../assets";
 
@@ -61,7 +59,6 @@ const services = [
     title: "Fusion Musician",
     icon: creator,
   },
-  
 ];
 
 const technologies = [
@@ -113,17 +110,13 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "React Developer",
     company_name: "Passage Protocol",
-    icon: starbucks,
+    icon: passage,
     iconBg: "#383E56",
     date: "March 2023 - Present",
     points: [
@@ -136,7 +129,7 @@ const experiences = [
   {
     title: "React Developer",
     company_name: "CashStream",
-    icon: tesla,
+    icon: null,
     iconBg: "#E6DEDD",
     date: "August 2022 - March 2023",
     points: [
@@ -147,24 +140,11 @@ const experiences = [
     ],
   },
   {
-    title: "Lead Teaching Assistant",
+    title: "Lead Tech Assistant",
     company_name: "Cable Makerspace",
-    icon: shopify,
+    icon: makerspace,
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -177,15 +157,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful, but Harold proved me wrong.",
+    name: "Johnathan Nicastro",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Harold does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -193,7 +173,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Harold optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

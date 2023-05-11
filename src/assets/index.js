@@ -35,6 +35,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import passage from "./company/passage.png";
+import makerspace from "./company/makerspace.png";
+
+
 export {
   logo,
   backend,
@@ -66,6 +70,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  passage,  
+  makerspace,
   jobit,
   tripguide,
 };
