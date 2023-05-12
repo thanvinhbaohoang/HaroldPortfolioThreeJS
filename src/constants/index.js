@@ -14,6 +14,7 @@ import {
   mongodb,
   git,
   figma,
+  drillbit,
   docker,
   meta,
   starbucks,
@@ -261,6 +262,28 @@ const projects = [
     image: dartmart,
     source_code_link: "https://github.com/thanvinhbaohoang/project-dartmart",
   },
+  {
+  name: "drillBit",
+  description:
+  "Generate monthly automated reports with on-chain and off-chain data, receive retention and ROI insights with real-time updates, and run your first retention analysis report.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: drillbit,
+  source_code_link: "https://github.com/thanvinhbaohoang/db-fe",
+},
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

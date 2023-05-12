@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import drillbit from "./drillbit.png";
 
 import passage from "./company/passage.png";
 import makerspace from "./company/makerspace.png";
@@ -53,6 +54,7 @@ export {
   figma,
   git,
   html,
+  drillbit,
   javascript,
   mongodb,
   nodejs,
