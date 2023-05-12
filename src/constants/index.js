@@ -120,10 +120,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop projects such as Passage and Drillbit using React, ExpressJS, TailwindJS and GraphQL",
     ],
   },
   {
@@ -146,10 +143,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Aided in 3D Printing designs and laser-cut for Dartmouth students, staffs and multiple PHD Researches",
+      "Projects: Makerspace’s NFC Log-In System, PrusaSlicer Tutorial, Designed Makerspace’s Logo"
     ],
   },
 ];
